@@ -1,0 +1,46 @@
+.box-shadow{
+    box-shadow:  0 2px 4px 0 rgba(0,0,0,.05),
+                 0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+body{
+
+}
+
+.imgServ {
+    width: 200px; /* Largura desejada */
+    height: 150px; /* Altura desejada */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+     margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.ImgSmart {
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+
+}
+
+
+.btnOrcamento{
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.itemSmart img{
+    width: 50px; /* Largura desejada */
+    height: 100px; /* Altura desejada */
+}
+
+.banners {
+    position: relative;
+  }
+
+  .text1 {
+    text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    .celular {
+      order: 2;
+    }
+  }

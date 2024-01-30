@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Teste Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/style.css">
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script>
+    ScrollReveal({ duration: 1000 });
+  </script>
+  <script src="bootstrap/js/script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar bg-black navbar-expand-md box-shadow fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-none d-sm-block" href="index.html">
+        <img src="img/logo/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+        <span class="navbar-toggler-icon bg-warning"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="btn btn-outline-warning mx-md-2" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn btn-warning mx-md-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ORÇAMENTO
+            </a>
+            <ul class="dropdown-menu  dropdown-menu-dark-subtle ">
+              <li><a class="dropdown-item" href="#"><img class="bg-warning-subtle rounded-top"
+                    src="img/icones/email.svg" alt="whatsapp"> E-MAIL</a></li>
+              <li><a class="dropdown-item" href="#"><img class="bg-success rounded-circle" src="img/icones/whatsapp.svg"
+                    alt="whatsapp"> WHATSAPP</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-warning" href="#">CONTATO</a>
+          </li>
+
+        </ul>
+        <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-fluid">
+    <div class="row bg-dark text-light">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+            aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+            aria-label="Slide 9"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/posts/001.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/002.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/003.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/004.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/005.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/006.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/007.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/008.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+          <div class="carousel-item">
+            <img src="img/posts/009.png" class="d-block w-100" alt="carouseldeimg">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+      <!-- 
+      <div class="col-7"></div>
+
+       <div class="col-md-5" >
+                <h1 class="display-4">Quanto vale a sua segurança?</h1>
+                <p class="lead">Agende uma visita com especialista em segurança eletrônica.</p>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div> -->
+
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <span class="h5 d-block"> ALTA TECNOLOGIA PARA SUA SEGURANÇA</span>
+      <h1 class="text-success">Aproveite as Vantagens</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/icones/monitoramento.svg" class="imgServ " alt="monitoramento">
+          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal">
+            <h5>MONITORAMENTO</h5>
+
+          </button>
+          <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content  bg-warning">
+                <div class="modal-header mx-auto">
+                  <h1 class="modal-title text-black fs-5" id="ModalLabel">
+                    Monitoramento 24 horas
+                    <img src="img/icones/escudo.svg" alt="escudo">
+                  </h1>
+                  <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <button class="btn bg-warning-subtle fw-bold border border-secondary-subtle" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  BOTÃO DE PÂNICO
+                </button>
+                <div class="collapse" id="collapse2">
+                  <div class="card card-body fs-5">
+                    A qualquer hora, você pode acionar o botão de pânico para que a EMIVE
+                    inicie imediatamente as tratativas de segurança e envie ajuda.
+                  </div>
+                </div>
+
+                <button class="btn bg-warning-subtle fw-bold border border-secondary-subtle" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  AGILIDADE NO ATENDIMENTO
+                </button>
+                <div class="collapse " id="collapse3">
+                  <div class="card card-body  fs-5">
+                    Nossa central de monitoramento recebe o disparo do
+                    seu alarme e age com velocidade tomando as ações necessárias.
+                  </div>
+                </div>
+
+                <button class="btn bg-warning-subtle fw-bold border border-secondary-subtle" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  SUPORTE AO CLIENTE
+                </button>
+                <div class="collapse " id="collapse4">
+                  <div class="card card-body  fs-5">
+                    Equipe treinada e especializada para dar suporte 24 horas por dia.
+                  </div>
+                </div>
+
+                <button class="btn bg-warning-subtle fw-bold border border-secondary-subtle" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  INTELIGÊNCIA VIRTUAL
+                </button>
+                <div class="collapse " id="collapse5">
+                  <div class="card card-body  fs-5">
+                    Tecnologia dedicada à segurança. Inteligência artificial no reconhecimento facial,
+                    identificação de temperatura, drones autônomos com reconhecimento de presença, acesso via
+                    identificação de placas de veículos.
+                    Ampla utilização de tecnologia aplicada ao setor, com total eficácia.
+                  </div>
+                </div>
+
+                <button class="btn bg-warning-subtle fw-bold border border-secondary-subtle" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
+                  aria-controls="collapseExample">
+                  RELATÓRIOS
+                </button>
+                <div class="collapse " id="collapse6">
+                  <div class="card card-body  fs-5">
+                    No seu aplicativo EMIVE, você tem acesso em tempo real ao relatório de quem arma e desarma o seu
+                    alarme.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </h3>
+          <p><br>O serviço de monitoramento 24h EMIVE proporciona segurança e monitoramento em tempo real.
+            Ações e respostas são acionados intantaneamente em caso de ocorrências,
+            assim como o protocolo de confirmação de senha e contrassenha.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="img/icones/alarme.svg" class="imgServ " alt="alarme">
+          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal2">
+            <h5>ALARME</h5>
+          </button>
+          <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content  bg-warning">
+                <div class="modal-header  mx-auto">
+                  <h1 class="modal-title text-black fs-5" id="ModalLabel">
+                    Alarme monitorado
+                    <img src="img/icones/vol.svg" alt="vol">
+                  </h1>
+                  <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="card card-body fs-5">
+                  O alarme monitorado tem como objetivo proteger o ambiente em que é instalado,
+                  detectando rapidamente situações suspeitas e automaticamente disparando a sirene para
+                  inibição sonora e enviando a informação para a nossa central de monitoramento.
+                  O Sistema Smart EMIVE consiste em um conjunto de equipamentos capazes
+                  de tornar qualquer ambiente mais seguro e monitorado.
+                </div>
+              </div>
+            </div>
+          </div>
+          </h3>
+          <p><br>O alarme monitorado tem a finalidade de resguardar o espaço onde está implantado, 
+            identificando prontamente circunstâncias suspeitas. Ele ativa automaticamente 
+            a sirene para dissuasão sonora e envia a informação à nossa central de monitoramento.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="img/icones/camera.svg" class="imgServ " alt="camera">
+          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#Modal3">
+            <h5>CAMERA DE SEGURANÇA</h5>
+          </button>
+          <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content  bg-warning">
+                <div class="modal-header  mx-auto">
+                  <h1 class="modal-title text-black fs-5" id="ModalLabel">
+                    Câmeras de alta tecnologia
+                    <img src="img/icones/webcam.svg" alt="cam">
+                  </h1>
+                  <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="card card-body fs-5">
+                  Conheça nosso método de segurança por meio do monitoramento de câmeras 24 horas por dia.
+                  Se você precisa monitorar áreas com grandes movimentações, áreas restritas ou monitorar de
+                  maneira efetiva qualquer ambiente, você está no lugar certo.
+                  Temos as melhores tecnologias do mercado para oferecer segurança e tranquilidade.
+                </div>
+              </div>
+            </div>
+          </div>
+          </h3>
+          <p><br>Conheça nosso método de segurança por meio do monitoramento de câmeras 24 horas por dia.
+             Se você precisa monitorar áreas com grandes movimentações, áreas restritas ou
+              monitorar de maneira efetiva qualquer ambiente, você está no lugar certo.
+             Temos as melhores tecnologias do mercado para oferecer segurança e tranquilidade.</p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="btn-group btnOrcamento showSmart" role="group">
+      <button type="button" class="btn btn-success dropdown-toggle btnOrcamento" data-bs-toggle="dropdown" aria-expanded="false">
+        SOLICITAR ORÇAMENTO
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#"><img class="bg-warning-subtle rounded-top"
+          src="img/icones/email.svg" alt="whatsapp"> E-MAIL</a></li>
+        <li><a class="dropdown-item" href="#"><img class="bg-success rounded-circle" src="img/icones/whatsapp.svg"
+          alt="whatsapp"> WHATSAPP</a></li>
+      </ul>
+    </div>
+  
+
+  </section>
+
+  <section class="py-5 bg-warning secServ" id="secServ">
+    <div class="container showSmart" id="scrollSection">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center display-1 fst-italic fw-medium text-white headline">
+            Rápido, prático e eficaz.
+          </h1>
+          <h3 class="text-center fw-medium text-dark-emphasis tagline ">Instalação em 28 minutos, sem sujeira.</h3>
+          <h5 class="text-center text-secondary pt-2 pb-0"> <span class="tagline2"> Portabilidade, nanotecnologia e
+              praticidade.</span>
+            <span class="tagline3"> O Sistema Smart EMIVE foi desenvolvido para promover a máxima segurança com o mínimo
+              de
+              impacto de instalação.</span> <span class="tagline4"> Sistema sem fio, com sensores, câmera de alta
+              definição, central de alarme,
+              botão de pânico, entre outras características exclusivas.</span> <span class="tagline5 py-0"> Tudo controlado
+              diretamente do seu celular,
+              por meio do app Smart EMIVE,
+              com o qual você pode monitorar sua casa ou empresa 24h.</span><br><br>
+          </h5>
+          <h1 class="text-center fw-medium text-white tagline6">
+            SISTEMA SMART EMIVE
+          </h1>
+          <img class="ImgSmart w-50 tagline6" src="img/flayer/sistemasmart1.png" alt="sistemasmart">
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+  </section>
+  <section class="py-5 bg-white itemSmart pb-0 mb-0" id="secServ">
+    <div class="container">
+      <div class="row justify-content-around">
+  
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline7" data-bs-toggle="popover" 
+          data-bs-title="CAMÊRA DE VÍDEO (HD)" data-bs-content="Leve sua câmera interna full HD 
+          para onde quiser. Fale e escute através da caixa de som e microfone integrados e veja 
+          imagens em 360º diretamente do celular. 
+          Acesse através do aplicativo EMIVE, as imagens em tempo real e gravadas com áudio.">
+          <img src="img/imgSmall/camera.png" alt="camera"></button>
+        </div>
+  
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline8" data-bs-toggle="popover" 
+          data-bs-title="CENTRAL DE ALARME" data-bs-content="Compatível com toda linha de 
+          sensores sem fio EMIVE. Possui redundância na comunicação proporcionando ainda mais segurança,
+           bateria interna nobreak acionada em caso de falta de energia e acoplamento de sirene 
+           para redundância do alerta sonoro.">
+          <img src="img/imgSmall/central.png" alt="central"></button>
+        </div>
+  
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline9" data-bs-toggle="popover" 
+          data-bs-title="CONTROLE REMOTO SEM FIO" data-bs-content="Possui arme parcial 
+          (permite armar o alarme desabilitando os sensores de movimento), botão de pânico silencioso que 
+          envia alerta para a central de monitoramento, é criptografado, com sistema anti-burla e 
+          anti-clonagem e possui alerta de status de bateria no led do próprio sensor.">
+          <img src="img/imgSmall/controle.png" alt="controle"></button>
+        </div>
+
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline10" data-bs-toggle="popover" 
+          data-bs-title="SENSOR MAGNÉTICO" data-bs-content="Sensor magnético
+           de abertura, vibração e impacto. Identifica caso ocorra a abertura de portas, janelas e gavetas.
+            Além disso, detecta vibrações e impactos identificando a tentativa de invasão 
+            antes mesmo que ela aconteça.">
+          <img src="img/imgSmall/sensorMag.png" alt="sensorMag"></button>
+        </div>
+      
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline11" data-bs-toggle="popover" 
+          data-bs-title="SENSOR DE PRESENÇA" data-bs-content="Sensor de presença sem fio de longo alcance.
+           Indicado para detectar o movimento de pessoas. Conectado a central EMIVE, este sensor enviará um
+            sinal caso detecte qualquer movimento dentro do seu alcance, acionando a nossa central 
+            de monitoramento 24h para envio da unidade volante mais próxima do local do disparo.">
+          <img src="img/imgSmall/sensorPre.png" alt="sensorPre"></button>
+        </div>
+
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline12" data-bs-toggle="popover" 
+          data-bs-title="SIRENE SEM FIO" data-bs-content="Além de funcionar como uma segunda sirene para
+           redundância e reforço do alerta sonoro, a sirene sem fio funciona também como um repetidor 
+           de sinal, melhorando e otimizando a comunicação entre os sensores e a central de alarme.">
+          <img src="img/imgSmall/sirene.png" alt="sirene"></button>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="btnOrcamento showSmart pb-1">
+      <a class="btn btn-success mx-md-2 btnOrcamento tagline13 p-3" aria-current="page"
+       href="#">COMPRAR KIT SMART EMIVE</a>
+
+    </div>
+  </section>
+  
+  <section class="banners">
+    <div class="container-fluid ps-0 pe-0">
+      <div class="row bg-black border border-5 border-black  text-center pb-3">
+        <div class="col-md-8 mt-4 celular tagline10 order-md-1">
+          <img src="img/banners/mobile.png" alt="celular" class="img-fluid">
+        </div>
+        <div class="col-md-4 mt-3 text1 order-md-2 tagline11">
+          <h1 class="display-2 fst-italic fw-medium text-white tagline2 mx-auto p-2">
+            Tudo na palma da sua mão!
+          </h1>
+          <h3 class="fw-medium text-light tagline12">
+            Alarme, câmera, monitoramento, relatórios, acionamento de emergência, tudo com um clique.
+          </h3>
+          <h5 class="text-light-emphasis">
+            <span class="tagline13">Sistema de Alarme integrado com controle por aplicativo</span>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <img src="img/banners/vivaatranquilidade.jpeg" alt="vivaTranquilidade" class="img-fluid">
+
+    
+  </section>
+
+
+  <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+  <script type="text/javascript" src="bootstrap/js/app.js"></script>
+</body>
+
+</html>
