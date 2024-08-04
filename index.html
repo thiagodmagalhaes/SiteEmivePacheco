@@ -2,7 +2,18 @@
 <html>
 
 <head>
-  <title> Teste Bootstrap</title>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WQXJ6D7B');</script>
+  <!-- End Google Tag Manager -->
+
+  <title>EMIVE - Segurança Eletrônica</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -15,6 +26,11 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQXJ6D7B"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
   <nav class="navbar bg-black navbar-expand-md box-shadow fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand d-none d-sm-block" href="index.html">
@@ -28,55 +44,148 @@
 
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="btn btn-outline-warning mx-md-2" aria-current="page" href="#">INICIO</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="btn btn-warning mx-md-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              ORÇAMENTO
+              SOLICITAR ORÇAMENTO
             </a>
             <ul class="dropdown-menu  dropdown-menu-dark-subtle ">
-              <li><a class="dropdown-item" href="#"><img class="bg-warning-subtle rounded-top"
+              <li><a class="dropdown-item" href="#orcamento-form"><img class="bg-warning-subtle rounded-top"
                     src="img/icones/email.svg" alt="whatsapp"> E-MAIL</a></li>
-              <li><a class="dropdown-item" href="#"><img class="bg-success rounded-circle" src="img/icones/whatsapp.svg"
-                    alt="whatsapp"> WHATSAPP</a></li>
+
+              <li><a class="dropdown-item"
+                  href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sober o sistema de segurança EMIVE."><img
+                    class="bg-success rounded-circle" src="img/icones/whatsapp.svg" alt="whatsapp"> WHATSAPP</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-outline-warning" href="#">CONTATO</a>
           </li>
 
         </ul>
-        <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
+
       </div>
     </div>
   </nav>
+  <section class="mt-5">
+    <div>
+      <div>
+        <img class="banner-img" src="img/banners/banneremive.png" alt="">
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-5 bg-warning secServ" id="secServ">
+    <div class="container showSmart" id="scrollSection">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="text-center display-1 fst-italic fw-medium text-white headline">
+            Rápido, prático e eficaz.
+          </h1>
+          <h3 class="text-center fw-medium text-dark-emphasis tagline">Instalação em 28 minutos, sem sujeira.</h3>
+          <h5 class="text-center text-secondary pt-2 pb-0">
+            <span class="tagline2">Portabilidade, nanotecnologia e praticidade.</span>
+            <span class="tagline3">O Sistema Smart EMIVE foi desenvolvido para promover a máxima segurança com o mínimo
+              de impacto de instalação.</span>
+            <span class="tagline4">Sistema sem fio, com sensores, câmera de alta definição, central de alarme, botão de
+              pânico, entre outras características exclusivas.</span>
+            <span class="tagline5 py-0">Tudo controlado diretamente do seu celular, por meio do app Smart EMIVE, com o
+              qual você pode monitorar sua casa ou empresa 24h.</span><br><br>
+          </h5>
+          <h1 class="text-center fw-medium text-white tagline6">
+            SISTEMA SMART EMIVE
+          </h1>
+          <img class="ImgSmart w-50 tagline6" src="img/flayer/sistemasmart1.png" alt="sistemasmart">
+        </div>
+        <div class="btn-group btnOrcamento showSmart" role="group">
+          <button type="button" class="btn btn-success  btnOrcamento">
+            <a class="dropdown-item"
+              href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sober o sistema de segurança EMIVE.">SOLICITAR
+              ORÇAMENTO</a>
+          </button>
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+  </section>
+
+
+  <section class="py-5 bg-white itemSmart pb-0 mb-0" id="secServ">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/imgSmall/camera.png" class="d-block mx-auto imgServ" alt="camera" data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-content="Leve sua câmera interna full HD para onde quiser. Fale e escute através da caixa de som e microfone integrados e veja imagens em 360º diretamente do celular. Acesse através do aplicativo EMIVE, as imagens em tempo real e gravadas com áudio.">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imgSmall/central.png" class="d-block mx-auto imgServ" alt="central" data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-content="Compatível com toda linha de sensores sem fio EMIVE. Possui redundância na comunicação proporcionando ainda mais segurança, bateria interna nobreak acionada em caso de falta de energia e acoplamento de sirene para redundância do alerta sonoro.">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imgSmall/controle.png" class="d-block mx-auto imgServ" alt="controle" data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-content="Possui arme parcial (permite armar o alarme desabilitando os sensores de movimento), botão de pânico silencioso que envia alerta para a central de monitoramento, é criptografado, com sistema anti-burla e anti-clonagem e possui alerta de status de bateria no led do próprio sensor.">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imgSmall/sensorMag.png" class="d-block mx-auto imgServ" alt="sensorMag"
+              data-bs-toggle="popover" data-bs-trigger="hover focus"
+              data-bs-content="Sensor magnético de abertura, vibração e impacto. Identifica caso ocorra a abertura de portas, janelas e gavetas. Além disso, detecta vibrações e impactos identificando a tentativa de invasão antes mesmo que ela aconteça.">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imgSmall/sensorPre.png" class="d-block mx-auto imgServ" alt="sensorPre"
+              data-bs-toggle="popover" data-bs-trigger="hover focus"
+              data-bs-content="Sensor de presença sem fio de longo alcance. Indicado para detectar o movimento de pessoas. Conectado a central EMIVE, este sensor enviará um sinal caso detecte qualquer movimento dentro do seu alcance, acionando a nossa central de monitoramento 24h para envio da unidade volante mais próxima do local do disparo.">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imgSmall/sirene.png" class="d-block mx-auto imgServ" alt="sirene" data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-content="Além de funcionar como uma segunda sirene para redundância e reforço do alerta sonoro, a sirene sem fio funciona também como um repetidor de sinal, melhorando e otimizando a comunicação entre os sensores e a central de alarme.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br><br>
+    <div class="btnOrcamento showSmart pb-1">
+      <a class="btn btn-success mx-md-2 btnOrcamento tagline13 p-3" aria-current="page"
+        href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sober o sistema de segurança EMIVE.">COMPRAR
+        KIT SMART
+        EMIVE</a>
+    </div>
+  </section>
+
 
   <section class="container-fluid">
     <div class="row bg-dark text-light">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3"
             aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4"
             aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5"
             aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6"
             aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="7"
             aria-label="Slide 8"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="8"
             aria-label="Slide 9"></button>
 
         </div>
@@ -109,33 +218,18 @@
             <img src="img/posts/009.png" class="d-block w-100" alt="carouseldeimg">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Próximo</span>
+          <span class="visually-hidden">Next</span>
+        </button>
         </button>
       </div>
-      <!-- 
-      <div class="col-7"></div>
-
-       <div class="col-md-5" >
-                <h1 class="display-4">Quanto vale a sua segurança?</h1>
-                <p class="lead">Agende uma visita com especialista em segurança eletrônica.</p>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Observação</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-            </div> -->
-
     </div>
   </section>
 
@@ -256,8 +350,8 @@
             </div>
           </div>
           </h3>
-          <p><br>O alarme monitorado tem a finalidade de resguardar o espaço onde está implantado, 
-            identificando prontamente circunstâncias suspeitas. Ele ativa automaticamente 
+          <p><br>O alarme monitorado tem a finalidade de resguardar o espaço onde está implantado,
+            identificando prontamente circunstâncias suspeitas. Ele ativa automaticamente
             a sirene para dissuasão sonora e envia a informação à nossa central de monitoramento.</p>
         </div>
         <div class="col-md-4">
@@ -286,125 +380,25 @@
           </div>
           </h3>
           <p><br>Conheça nosso método de segurança por meio do monitoramento de câmeras 24 horas por dia.
-             Se você precisa monitorar áreas com grandes movimentações, áreas restritas ou
-              monitorar de maneira efetiva qualquer ambiente, você está no lugar certo.
-             Temos as melhores tecnologias do mercado para oferecer segurança e tranquilidade.</p>
+            Se você precisa monitorar áreas com grandes movimentações, áreas restritas ou
+            monitorar de maneira efetiva qualquer ambiente, você está no lugar certo.
+            Temos as melhores tecnologias do mercado para oferecer segurança e tranquilidade.</p>
         </div>
       </div>
     </div>
     <br><br>
     <div class="btn-group btnOrcamento showSmart" role="group">
-      <button type="button" class="btn btn-success dropdown-toggle btnOrcamento" data-bs-toggle="dropdown" aria-expanded="false">
-        SOLICITAR ORÇAMENTO
+      <button type="button" class="btn btn-success  btnOrcamento">
+        <a class="dropdown-item"
+          href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sober o sistema de segurança EMIVE.">SOLICITAR
+          ORÇAMENTO</a>
       </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#"><img class="bg-warning-subtle rounded-top"
-          src="img/icones/email.svg" alt="whatsapp"> E-MAIL</a></li>
-        <li><a class="dropdown-item" href="#"><img class="bg-success rounded-circle" src="img/icones/whatsapp.svg"
-          alt="whatsapp"> WHATSAPP</a></li>
-      </ul>
     </div>
-  
+    
+
 
   </section>
 
-  <section class="py-5 bg-warning secServ" id="secServ">
-    <div class="container showSmart" id="scrollSection">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 class="text-center display-1 fst-italic fw-medium text-white headline">
-            Rápido, prático e eficaz.
-          </h1>
-          <h3 class="text-center fw-medium text-dark-emphasis tagline ">Instalação em 28 minutos, sem sujeira.</h3>
-          <h5 class="text-center text-secondary pt-2 pb-0"> <span class="tagline2"> Portabilidade, nanotecnologia e
-              praticidade.</span>
-            <span class="tagline3"> O Sistema Smart EMIVE foi desenvolvido para promover a máxima segurança com o mínimo
-              de
-              impacto de instalação.</span> <span class="tagline4"> Sistema sem fio, com sensores, câmera de alta
-              definição, central de alarme,
-              botão de pânico, entre outras características exclusivas.</span> <span class="tagline5 py-0"> Tudo controlado
-              diretamente do seu celular,
-              por meio do app Smart EMIVE,
-              com o qual você pode monitorar sua casa ou empresa 24h.</span><br><br>
-          </h5>
-          <h1 class="text-center fw-medium text-white tagline6">
-            SISTEMA SMART EMIVE
-          </h1>
-          <img class="ImgSmart w-50 tagline6" src="img/flayer/sistemasmart1.png" alt="sistemasmart">
-        </div>
-      </div>
-      <br>
-      <br>
-    </div>
-  </section>
-  <section class="py-5 bg-white itemSmart pb-0 mb-0" id="secServ">
-    <div class="container">
-      <div class="row justify-content-around">
-  
-        <div class="col-2 text-center">
-          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline7" data-bs-toggle="popover" 
-          data-bs-title="CAMÊRA DE VÍDEO (HD)" data-bs-content="Leve sua câmera interna full HD 
-          para onde quiser. Fale e escute através da caixa de som e microfone integrados e veja 
-          imagens em 360º diretamente do celular. 
-          Acesse através do aplicativo EMIVE, as imagens em tempo real e gravadas com áudio.">
-          <img src="img/imgSmall/camera.png" alt="camera"></button>
-        </div>
-  
-        <div class="col-2 text-center">
-          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline8" data-bs-toggle="popover" 
-          data-bs-title="CENTRAL DE ALARME" data-bs-content="Compatível com toda linha de 
-          sensores sem fio EMIVE. Possui redundância na comunicação proporcionando ainda mais segurança,
-           bateria interna nobreak acionada em caso de falta de energia e acoplamento de sirene 
-           para redundância do alerta sonoro.">
-          <img src="img/imgSmall/central.png" alt="central"></button>
-        </div>
-  
-        <div class="col-2 text-center">
-          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline9" data-bs-toggle="popover" 
-          data-bs-title="CONTROLE REMOTO SEM FIO" data-bs-content="Possui arme parcial 
-          (permite armar o alarme desabilitando os sensores de movimento), botão de pânico silencioso que 
-          envia alerta para a central de monitoramento, é criptografado, com sistema anti-burla e 
-          anti-clonagem e possui alerta de status de bateria no led do próprio sensor.">
-          <img src="img/imgSmall/controle.png" alt="controle"></button>
-        </div>
-
-        <div class="col-2 text-center">
-          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline10" data-bs-toggle="popover" 
-          data-bs-title="SENSOR MAGNÉTICO" data-bs-content="Sensor magnético
-           de abertura, vibração e impacto. Identifica caso ocorra a abertura de portas, janelas e gavetas.
-            Além disso, detecta vibrações e impactos identificando a tentativa de invasão 
-            antes mesmo que ela aconteça.">
-          <img src="img/imgSmall/sensorMag.png" alt="sensorMag"></button>
-        </div>
-      
-        <div class="col-2 text-center">
-          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline11" data-bs-toggle="popover" 
-          data-bs-title="SENSOR DE PRESENÇA" data-bs-content="Sensor de presença sem fio de longo alcance.
-           Indicado para detectar o movimento de pessoas. Conectado a central EMIVE, este sensor enviará um
-            sinal caso detecte qualquer movimento dentro do seu alcance, acionando a nossa central 
-            de monitoramento 24h para envio da unidade volante mais próxima do local do disparo.">
-          <img src="img/imgSmall/sensorPre.png" alt="sensorPre"></button>
-        </div>
-
-        <div class="col-2 text-center">
-          <button type="button" class="btn btn-outline-secondary p-0 border-0 tagline12" data-bs-toggle="popover" 
-          data-bs-title="SIRENE SEM FIO" data-bs-content="Além de funcionar como uma segunda sirene para
-           redundância e reforço do alerta sonoro, a sirene sem fio funciona também como um repetidor 
-           de sinal, melhorando e otimizando a comunicação entre os sensores e a central de alarme.">
-          <img src="img/imgSmall/sirene.png" alt="sirene"></button>
-        </div>
-      </div>
-    </div>
-
-    <br><br>
-
-    <div class="btnOrcamento showSmart pb-1">
-      <a class="btn btn-success mx-md-2 btnOrcamento tagline13 p-3" aria-current="page"
-       href="#">COMPRAR KIT SMART EMIVE</a>
-
-    </div>
-  </section>
-  
   <section class="banners">
     <div class="container-fluid ps-0 pe-0">
       <div class="row bg-black border border-5 border-black  text-center pb-3">
@@ -412,22 +406,98 @@
           <img src="img/banners/mobile.png" alt="celular" class="img-fluid">
         </div>
         <div class="col-md-4 mt-3 text1 order-md-2 tagline11">
-          <h1 class="display-2 fst-italic fw-medium text-white tagline2 mx-auto p-2">
+          <h1 class="display-2 fst-italic fw-medium tagline2 mx-auto p-2">
             Tudo na palma da sua mão!
           </h1>
           <h3 class="fw-medium text-light tagline12">
             Alarme, câmera, monitoramento, relatórios, acionamento de emergência, tudo com um clique.
           </h3>
-          <h5 class="text-light-emphasis">
+          <h5 class="text-secondary">
             <span class="tagline13">Sistema de Alarme integrado com controle por aplicativo</span>
           </h5>
+          <div class="btn-group btnOrcamento showSmart" role="group">
+            <button type="button" class="btn btn-warning  btnOrcamento">
+              <a class="dropdown-item"
+                href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sober o sistema de segurança EMIVE.">SOLICITAR
+                ORÇAMENTO</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <img src="img/banners/emivebanner.png" alt="vivaTranquilidade" class="img-fluid">
+
+    </div>
+    <div class="estrutura2">
+      <div class="container">
+        <div class="footer1">
+          <h2><br>AGENDE AGORA SUA <span class="txt2">CONSULTORIA GRATUITA PRESENCIAL
+              COM</span> O FRANQUEADO ESPECIALISTA EM SEGURANÇA.</h2><br>
+        </div>
+        <div class="footer5">
+          <img id="foto2" src="img/perfil/fotoperfil.jpg" alt="foto2">
+        </div>
+        <div class="footer6">
+          <div class="txtfoto">
+            <h5>VMG PROMOÇÃO DE VENDAS LTDA</h5>
+            <h1>Guilherme Pacheco <br>(31)9 7154-9334</h1><br>
+            <h4>FRANQUEADO ESPECIALISTA EM SEGURANÇA ELETRÔNICA</h4>
+            <a class="desenv" href="https://www.instagram.com/pachecoseg.eletronica/">
+              <img src="https://img.icons8.com/color/96/instagram-new--v1.png" alt="instagram-new--v1" />
+            </a>
+            <a class="desenv" href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sobre a EMIVE.">
+              <img src="https://img.icons8.com/color/96/whatsapp--v1.png" alt="whatsapp--v1" />
+            </a>
+          </div>
+        </div>
+        <div class="footer2">
+          <div class="foto2">
+            <img id="foto2" src="img/perfil/fotoperfil.jpg" alt="foto2">
+          </div>
+          <div class="txtfoto">
+            <h5>VMG PROMOÇÃO DE VENDAS LTDA</h5>
+            <h1>Guilherme Pacheco <br>(31)9 7154-9334</h1><br>
+            <h4>FRANQUEADO ESPECIALISTA EM SEGURANÇA ELETRÔNICA</h4>
+            <a class="desenv" href="https://www.instagram.com/pachecoseg.eletronica/">
+              <img src="https://img.icons8.com/color/96/instagram-new--v1.png" alt="instagram-new--v1" />
+            </a>
+            <a class="desenv"
+              href="https://wa.me/31971549334/?text=Olá, gostaria de saber mais sober o sistema de segurança EMIVE.">
+              <img src="https://img.icons8.com/color/96/whatsapp--v1.png" alt="whatsapp--v1" />
+            </a>
+          </div>
+        </div>
+
+        <div class="container2">
+          <form id="orcamento-form" action="https://formspree.io/f/xdoqrbko" method="POST">
+            <h3>Vamos realizar o orçamento <span>GRATUITAMENTE!</span></h3>
+            <br><br>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="tel">Telefone</label>
+            <input type="text" name="tel" id="tel" required>
+            <label for="opcao">Você precisa de segurança para sua casa ou negócio?</label>
+            <input type="text" name="opcao" id="opcao" required>
+            <label for="message">Observação</label>
+            <input type="text" name="message" id="message" required><br><br>
+            <button type="submit"  id="submit-btn">AGENDAR ORÇAMENTO</button>
+          </form>
         </div>
       </div>
     </div>
-    <img src="img/banners/vivaatranquilidade.jpeg" alt="vivaTranquilidade" class="img-fluid">
 
-    
+
+
+
+    <img src="img/banners/vivaatranquilidade.jpeg" alt="vivaTranquilidade" class="img-fluid">
+    <footer class="footer4">
+      <li><a class="desenv" href="https://www.linkedin.com/in/thiago-magalhaes94/">TDev ©</a></li>
+    </footer>
+
   </section>
+
+
 
 
   <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
@@ -435,5 +505,6 @@
   <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="bootstrap/js/app.js"></script>
 </body>
+
 
 </html>

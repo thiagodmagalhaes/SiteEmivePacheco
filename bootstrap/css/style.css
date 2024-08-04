@@ -1,46 +1,384 @@
-.box-shadow{
-    box-shadow:  0 2px 4px 0 rgba(0,0,0,.05),
-                 0 4px 8px 0 rgba(0,0,0,.05);
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05), 0 4px 8px 0 rgba(0, 0, 0, .05);
 }
 
-body{
-
-}
+body {}
 
 .imgServ {
-    width: 200px; /* Largura desejada */
-    height: 150px; /* Altura desejada */
-    display: block; /* Garante que a imagem seja exibida como um bloco */
-     margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  width: 200px;
+  /* Largura desejada */
+  height: 150px;
+  /* Altura desejada */
+  display: block;
+  /* Garante que a imagem seja exibida como um bloco */
+  margin: 0 auto;
+  /* Centraliza a imagem horizontalmente */
 }
 
 .ImgSmart {
-    display: block; /* Garante que a imagem seja exibida como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-
+  display: block;
+  /* Garante que a imagem seja exibida como um bloco */
+  margin: 0 auto;
+  /* Centraliza a imagem horizontalmente */
 }
 
-
-.btnOrcamento{
-    display: block; /* Garante que a imagem seja exibida como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+.btnOrcamento {
+  display: block;
+  /* Garante que a imagem seja exibida como um bloco */
+  margin: 0 auto;
+  /* Centraliza a imagem horizontalmente */
 }
 
-.itemSmart img{
-    width: 50px; /* Largura desejada */
-    height: 100px; /* Altura desejada */
+.itemSmart img {
+  width: 150px;
+  /* Largura desejada */
+  height: 250px;
+  /* Altura desejada */
 }
 
 .banners {
-    position: relative;
+  position: relative;
+}
+
+.banners h1 {
+  color: #F3BF0B;
+}
+
+.text1 {
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(196, 180, 180, 0.945);
+  /* Cor preta para os ícones das setas */
+}
+
+.estrutura2 .footer5 {
+  display: none;
+}
+
+.estrutura2 .footer6 {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .celular {
+    order: 2;
+  }
+  .estrutura2 .footer5 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+  }
+  
+  .estrutura2 .footer2 {
+    display: none;
+  }
+  
+  .estrutura2 .footer6 {
+    display: flex;
+  }
+  
+  .estrutura2 .footer5 img {
+    border: solid 3px #F3BF0B;
   }
 
-  .text1 {
+  .estrutura3 .footer5 {
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+  }
+  
+  .estrutura3 .footer5 img {
+    border: solid 3px #F3BF0B;
+  }
+  
+  /* Estilos gerais para centralizar o conteúdo */
+  .footer5,
+  .footer6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer6 .txtfoto {
     text-align: center;
+    /* Centralizar o texto dentro de txtfoto */
+  }
+  
+  /* Para ajustar a imagem */
+  .footer5 img {
+    max-width: 70%;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco para centralização */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+  
+
+
+
+}
+
+
+
+/* Adiciona largura fixa e centraliza o texto dos popovers */
+.popover {
+  max-width: 200px;
+  /* Define a largura máxima do popover */
+  text-align: center;
+  /* Centraliza o texto */
+}
+
+.popover-body {
+  white-space: normal;
+  /* Permite quebra de linha */
+}
+
+.footer2 {
+  grid-area: footer;
+  text-align: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  display: grid;
+  /* Adiciona a propriedade display grid */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Divide o footer em duas colunas */
+  grid-template-areas: "foto txtfoto txtfoto";
+  /* Nomeia as áreas das colunas */
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.footer2 .foto2 img {
+  grid-area: foto;
+  width: 50%;
+  border: solid 3px #F3BF0B;
+}
+
+.footer2 .txtfoto img {
+  width: 70px;
+  height: 70px;
+}
+
+.footer2 .txtfoto {
+  grid-area: txtfoto;
+  text-align: left;
+
+}
+
+.footer2 h1 {
+  color: #F3BF0B;
+}
+
+.footer2 h1 {
+  color: #F3BF0B;
+  font-weight: bold;
+}
+
+.footer4 {
+  grid-area: footer4;
+  padding-top: 1px;
+  text-decoration: none;
+  background: #000;
+  /* Alterado para preto */
+  color: #ffffff;
+  /* Alterado para amarelo */
+  text-align: center;
+  font-size: 10px;
+}
+
+.footer4 a.desenv {
+  text-decoration: none;
+  color: #ffffff;
+  /* Cor da fonte em amarelo */
+}
+
+.footer4 a.desenv:hover {
+  color: #ec3c3c;
+  /* Muda a cor do texto para branco ao passar o mouse */
+}
+
+
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.secServ {
+  height: auto;
+}
+
+
+.footer1 {
+  grid-area: footer1;
+  text-align: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  border-top: 2px solid rgb(255, 255, 255);
+  /* A mesma cor e espessura para manter a consistência */
+
+}
+
+
+.footer1 h2 {
+  color: #fff;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.footer1 h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  /* Posiciona a linha abaixo do h2 */
+  left: 80px;
+  /* Inicia a linha preta após 20px da esquerda */
+  right: 80px;
+  /* Termina a linha preta 20px antes da direita */
+  height: 2px;
+  /* Altura da linha */
+  background-color: #ffffff;
+  /* Cor da linha preta */
+}
+
+
+.footer1 .txt {
+  color: #F3BF0B;
+
+  font-weight: bold;
+
+}
+
+.footer1 .txt2 {
+  color: #F3BF0B;
+  font-weight: bold;
+
+}
+
+.estrutura2 {
+  background: #000000;
+  color: #fff;
+
+
+  .header {
+    padding-left: 30px;
+    padding-right: 50px;
   }
 
-  @media (max-width: 767px) {
-    .celular {
-      order: 2;
-    }
+  .header img {
+    height: 100%;
+    width: 100%;
   }
+
+  input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+  }
+
+  input[type="text"][name="message"] {
+    height: 100px;
+    /* Adicionando apenas a altura para o input de mensagem */
+  }
+
+
+  button {
+    background: #F3BF0B;
+    border: none;
+    width: 100%;
+    height: 30px;
+  }
+
+  .container {
+    border: solid 2px #F3BF0B;
+    padding: 30px;
+  }
+
+  .container2 {
+    padding: 30px;
+  }
+
+  .container2 h3 {
+    font-family: cursive;
+  }
+
+  .container2 label {
+    font-family: cursive;
+  }
+
+  .container2 span {
+    color: #F3BF0B;
+    text-decoration: underline;
+  }
+
+  .footer2 .foto2 img {
+    border: solid 3px #F3BF0B;
+  }
+}
+
+.estrutura3 {
+  background: #000000;
+  color: #fff;
+  height: 1000px;
+
+  .header {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+
+  .header img {
+    height: 100%;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+  }
+
+  input[type="text"][name="message"] {
+    height: 100px;
+    /* Adicionando apenas a altura para o input de mensagem */
+  }
+
+
+  button {
+    background: #F3BF0B;
+    border: none;
+    width: 100%;
+    height: 30px;
+  }
+
+  .container {
+    border: solid 2px #F3BF0B;
+    padding: 30px;
+  }
+
+  .container2 {
+    padding: 30px;
+  }
+
+  .container2 h3 {
+    font-family: cursive;
+  }
+
+  .container2 label {
+    font-family: cursive;
+  }
+
+  .container2 span {
+    color: #F3BF0B;
+    text-decoration: underline;
+  }
+
+  .footer2 .foto2 img {
+    border: solid 3px #F3BF0B;
+  }
+}
